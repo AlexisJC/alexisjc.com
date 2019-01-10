@@ -3,17 +3,19 @@
     <div class="columns is-mobile is-multiline is-centered">
       <div class="column is-narrow">
         <h5>Compétences</h5>
-        <v-chart-radar 
-          :chartdata="skillChart.data" 
-          :options="skillChart.options"
-          class="isChart"
-        />
+        <div style="position: relative;">
+          <v-chart-radar 
+            :chartdata="skillChart.data" 
+            :options="skillChart.options"
+            class="isChart"
+          />
+        </div>
       </div>
       <div class="column is-narrow">
-        <h5>Langages</h5>
+        <h5>Technologies</h5>
         <v-chart-radar 
-          :chartdata="langChart.data" 
-          :options="langChart.options"
+          :chartdata="techChart.data" 
+          :options="techChart.options"
           class="isChart"
         />
       </div>
@@ -40,7 +42,7 @@ export default {
     return {
       skillChart: {
         data: {
-          labels: ['Conception', 'Back-End', 'Front-End', 'Devops', 'UX / UI', 'Gestion de projet'],
+          labels: ['Conception', 'Back', 'Front', 'Devops', 'UX / UI', 'Agile'],
           datasets: [
             {
               label: '2017',
@@ -56,7 +58,7 @@ export default {
         },
         options: {
           responsive: true,
-          maintainAspectRatio: true,
+          maintainAspectRatio: false,
           scale: {
             ticks: {
               display: false,
@@ -66,7 +68,7 @@ export default {
           }
         }
       },
-      langChart: {
+      techChart: {
         data: {
           labels: ['Vue', 'React', 'Angular', 'Symfony', 'Express', 'Adonis'],
           datasets: [
@@ -82,7 +84,7 @@ export default {
             display: false
           },
           responsive: true,
-          maintainAspectRatio: true,
+          maintainAspectRatio: false,
           scale: {
             ticks: {
               display: false,
@@ -108,7 +110,7 @@ export default {
             display: false
           },
           responsive: true,
-          maintainAspectRatio: true,
+          maintainAspectRatio: false,
           scale: {
             ticks: {
               display: false,
@@ -122,3 +124,12 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.isChart {
+  position: relative;
+  margin: auto;
+  max-height: 312px;
+  max-width: 312px;
+}
+</style>
