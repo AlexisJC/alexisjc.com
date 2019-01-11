@@ -1,6 +1,6 @@
 <template>
   <div>
-    Mes projets
+    Mes projets (Ecriture en cours :))
   </div>
 </template>
 

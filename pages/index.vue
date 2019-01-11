@@ -2,10 +2,16 @@
   <div class="container">
     <div class="content is-small">
       <!-- Courte présentation comme sur mon CV -->
-      <h1>Développeur Javascript</h1>
+      <h1>Développeur Full-Stack</h1>
       
-      <p>Passionné par le développement web, j'en exerce le métier depuis maintenant quelques années.</p>
-      <p>Qui dit web dit javascript, j'en ai fait mon langage de prédilection après avoir exploré les pointeurs en C, le paradygme objet en C# et en Java et la programmation web côté serveur avec PHP.</p>
+      <p>
+        C'est sans doute le titre que je porte le mieux ! 
+        Après des débuts en programmation essentiellement tournés sur des langages serveurs du type C, Php, Java ou encore C#, 
+        j'ai été amené à me confronter à l'expérience utilisateur et à la conception d'interface graphique.
+        <br>
+        Les récentes évolutions du web qui tendent à déplacer la logique métier du serveur au client amènent de plus en plus de développeur comme moi à intervenir sur toutes les couches d'une application.
+      </p>
+      <p>Qui dit web dit javascript, j'en ai fait mon langage de prédilection !</p>
       <blockquote>Toute application pouvant être écrite en javascript finira par être écrite en javascript.</blockquote>
       <p>C'est Jeff Atwood, le créateur de Stack Overflow, qui le dit, et je suis de son avis !</p>
       <p>Javascript et son jeune runtime node.js sont arrivés à maturation, des tas de technologies serveur comme client se sont construites dessus : L'avenir lui appartient !</p>
